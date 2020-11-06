@@ -38,7 +38,7 @@ class ListItems extends StatelessWidget {
           }
           return AnimationLimiter(
               child: ListView.builder(
-            padding: EdgeInsets.all(5),
+            padding: EdgeInsets.all(6),
             itemBuilder: (BuildContext context, int index) {
               if (_position != 2) {
                 return AnimationConfiguration.staggeredList(
